@@ -1,0 +1,330 @@
+{
+  "basics": {
+    "name": "Gerald Solano",
+    "label": "Full Stack Developer | .NET Core | NodeJS | ReactJS | Python | Pentesting",
+    "image": "/me.webp",
+    "email": "gerdevx@outlook.com",
+    "url": "https://www.linkedin.com/in/ger10",
+    "summary": "Software developer with a focus on back-end development for web applications. I am passionate about my work and enjoy learning about new technologies, trends, and researching solutions that help me grow professionally. I find enjoyment in developing and proposing new solutions for both work and personal projects.",
+    "location": {
+      "address": "",
+      "postalCode": "127.0.0.1",
+      "city": "San José",
+      "countryCode": "CR",
+      "region": "Costa Rica"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ger10",
+        "url": "https://www.linkedin.com/in/ger10"
+      },
+      {
+        "network": "GitHub",
+        "username": "gerDevX",
+        "url": "https://github.com/gerDevX"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Connect Assistance",
+      "position": "Software Developer",
+      "url": "https://connect.cr",
+      "startDate": "2019-08-15",
+      "endDate": null,
+      "summary": "Analyst & Fullstack Developer for on-premises and cloud-based applications."
+    },
+    {
+      "name": "Namutek",
+      "position": "Lead Backend Developer",
+      "url": "https://www.namutek.com",
+      "startDate": "2016-04-01",
+      "endDate": "2019-08-01",
+      "summary": "I led a team in Banking and Finance projects."
+    },
+    {
+      "name": "Sapiens Software on Demand",
+      "position": "Lead Software Enginner",
+      "startDate": "2011-04-01",
+      "endDate": "2016-03-22",
+      "summary": "I led several software development projects for external clients."
+    }
+  ],
+  "education": [{
+    "institution": "Universidad Latina de Costa Rica",
+    "url": "https://www.uoc.edu/portal/es/index.html",
+    "area": "Software Engineer",
+    "studyType": "Bachelor degree",
+    "startDate": "2008-03-01",
+    "endDate": "2013-08-01"
+  }],
+  "certificates": [{
+    "name": "Back End Development and APIs",
+    "date": "2023-10-14",
+    "issuer": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/certification/gerDevx10/back-end-development-and-apis"
+  },
+  {
+    "name": "Full Stack Developer",
+    "date": "2023-10-16",
+    "issuer": "freeCodeCamp",
+    "url": "https://freecodecamp.org/certification/gerDevx10/full-stack"
+  },
+  {
+    "name": "Python for Data Science",
+    "date": "2022-07-04",
+    "issuer": "IBM",
+    "url": "https://www.credly.com/badges/2b34af43-c52e-4909-96fc-70da7d6bf647/public_url"
+  },
+  {
+    "name": "LE-1: Linux Essentials",
+    "date": "2022-06-30",
+    "issuer": "Linux Professional Institute",
+    "url": "https://cs.lpi.org/caf/Xamman/certification/verify/LPI000529181/rw9j2vqvts"
+  },
+  {
+    "name": "SFPC - Scrum Foundation Professional Certificate",
+    "date": "2022-07-02",
+    "issuer": "CertiProf",
+    "url": "https://www.credly.com/badges/c18d1a5f-7846-4834-bb2f-81a4c08a9e79/public_url"
+  },
+  {
+    "name": "Kubernetes I - Administración",
+    "date": "2022-03-24",
+    "issuer": "Universidad Cenfotec",
+    "url": "https://www.credly.com/badges/61c281c5-d068-4034-936d-bf370000ee85/public_url"
+  },
+  {
+    "name": "Curso de OSINT",
+    "date": "2023-01-28",
+    "issuer": "Academia de Ciberseguridad",
+    "url": "https://credential.academia-ciberseguridad.com/verify/f6b831544810"
+  }
+],
+  "skills": [
+    {
+      "name": "HTML",
+      "key": "html",
+      "level": "Master",
+      "keywords": [
+        "Web development", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "key": "css",
+      "level": "Master",
+      "keywords": [
+        "Web development", "Frontend", "Responsive Design"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "key": "javascript",
+      "level": "Master",
+      "keywords": [
+        "Web development", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "key": "typescript",
+      "level": "Advanced",
+      "keywords": [
+        "Web development", "Frontend", "Backend"
+      ]
+    },
+    {
+      "name": "Node",
+      "key": "node",
+      "level": "Advanced",
+      "keywords": [
+        "Web development", "Backend", "JavaScript"
+      ]
+    },
+    {
+      "name": "T-SQL Microsoft SQL Server",
+      "key": "sql",
+      "level": "Advanced",
+      "keywords": [
+        "Data Base", "SQL", "Storage", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "key": "git",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control", "Collaboration", "Source Control"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "key": "github",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control", "Collaboration", "Source Code", "Git"
+      ]
+    },
+    {
+      "name": "Azure DevOps",
+      "key": "azuredevops",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control", "Collaboration", "Source Code", "Git"
+      ]
+    },
+    {
+      "name": "Docker",
+      "key": "docker",
+      "level": "Intermediate",
+      "keywords": [
+        "Containers", "Web development", "Backend"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "key": "kubernetes",
+      "level": "Intermediate",
+      "keywords": [
+        "Containers", "Web development", "Backend"
+      ]
+    },
+    {
+      "name": "Python",
+      "key": "python",
+      "level": "Advanced",
+      "keywords": [
+        "Web development", "Backend", "Data Science"
+      ]
+    },
+    {
+      "name": "Flask",
+      "key": "flask",
+      "level": "Advanced",
+      "keywords": [
+        "Web development", "Backend", "Python"
+      ]
+    },
+    {
+      "name": "Fast API",
+      "key": "fastapi",
+      "level": "Advanced",
+      "keywords": [
+        "Web development", "Backend", "Python"
+      ]
+    },
+    {
+      "name": "C#",
+      "key": "csharp",
+      "level": "Advanced",
+      "keywords": [
+        "Web development", "Backend", "Microsoft"
+      ]
+    },
+    {
+      "name": ".NET Core",
+      "key": "dotnetcore",
+      "level": "Advanced",
+      "keywords": [
+        "Web development", "Backend", "Microsoft"
+      ]
+    },
+    {
+      "name": "React",
+      "key": "react",
+      "level": "Advanced",
+      "keywords": [
+        "Web development", "Frontend", "JavaScript Library", "UI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [{
+      "name": "Hiking",
+      "keywords": [
+        "Hikes",
+        "Mountain"
+      ]
+    },
+    {
+      "name": "Fast Soccer",
+      "keywords": [
+        "Soccer",
+        "Sport"
+      ]
+    }
+ ],
+  "projects": [
+    {
+      "name": "Pacto Amistoso",
+      "isActive": true,
+      "description": "A quick and simple solution for traffic accidents involving property damage, without the need for a traffic officer.",
+      "highlights": [
+        "Road",
+        "Accidents",
+        "Transit",
+        "Friendly Agreements"
+      ],
+      "url": "https://www.pactoamistoso.com"
+    },
+    {
+      "name": "Sistema de Inspecciones en Carretera",
+      "isActive": true,
+      "description": "System for inspection control, reporting, road damage control, and anti-fraud control. Implemented in countries such as Panama, Costa Rica, and Puerto Rico.",
+      "highlights": [
+        "Inspectors",
+        "Inspections",
+        "Road",
+        "Damage",
+        "Insurers",
+        "Anti fraud"
+      ],
+      "url": "https://connect.cr"
+    },
+    {
+      "name": "BAC Flotas",
+      "isActive": true,
+      "description": "Fleet management and expense control system.",
+      "highlights": [
+        "Fleets",
+        "Banking",
+        "Expense Control"
+      ],
+      "url": "https://flotas.baccredomatic.com/"
+    },
+    {
+      "name": "ControlCar",
+      "isActive": true,
+      "description": "Real-time security and location system, GPS control.",
+      "highlights": [
+        "Geolocation",
+        "Realtime",
+        "Security"
+      ],
+      "url": "https://www.baccredomatic.com/es-cr/personas/landing/controlcar"
+    },
+    {
+      "name": "EY - HR Integration Module (Competencies)",
+      "isActive": false,
+      "description": "Survey management for managers and employees to measure their competencies in aspects of statistics, performance, and skill improvement.",
+      "highlights": [
+        "HR",
+        "Surveys",
+        "Competences",
+        "Statistics"
+      ],
+      "url": "https://www.ey.com/es_cr"
+    }
+  ]
+}
