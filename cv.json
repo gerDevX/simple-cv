@@ -104,6 +104,30 @@
 ],
   "skills": [
     {
+      "name": "C#",
+      "key": "csharp",
+      "level": "Advanced",
+      "keywords": [
+        "Web development", "Backend", "Microsoft"
+      ]
+    },
+    {
+      "name": ".NET Core",
+      "key": "dotnetcore",
+      "level": "Advanced",
+      "keywords": [
+        "Web development", "Backend", "Microsoft"
+      ]
+    },
+    {
+      "name": "T-SQL",
+      "key": "sql",
+      "level": "Advanced",
+      "keywords": [
+        "Data Base", "SQL", "Storage", "Backend"
+      ]
+    },
+    {
       "name": "HTML",
       "key": "html",
       "level": "Master",
@@ -144,11 +168,35 @@
       ]
     },
     {
-      "name": "T-SQL",
-      "key": "sql",
+      "name": "React",
+      "key": "react",
       "level": "Advanced",
       "keywords": [
-        "Data Base", "SQL", "Storage", "Backend"
+        "Web development", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Python",
+      "key": "python",
+      "level": "Advanced",
+      "keywords": [
+        "Web development", "Backend", "Data Science"
+      ]
+    },
+    {
+      "name": "Flask",
+      "key": "flask",
+      "level": "Advanced",
+      "keywords": [
+        "Web development", "Backend", "Python"
+      ]
+    },
+    {
+      "name": "Fast API",
+      "key": "fastapi",
+      "level": "Advanced",
+      "keywords": [
+        "Web development", "Backend", "Python"
       ]
     },
     {
@@ -189,54 +237,6 @@
       "level": "Intermediate",
       "keywords": [
         "Containers", "Web development", "Backend"
-      ]
-    },
-    {
-      "name": "Python",
-      "key": "python",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Backend", "Data Science"
-      ]
-    },
-    {
-      "name": "Flask",
-      "key": "flask",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Backend", "Python"
-      ]
-    },
-    {
-      "name": "Fast API",
-      "key": "fastapi",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Backend", "Python"
-      ]
-    },
-    {
-      "name": "C#",
-      "key": "csharp",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Backend", "Microsoft"
-      ]
-    },
-    {
-      "name": ".NET Core",
-      "key": "dotnetcore",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Backend", "Microsoft"
-      ]
-    },
-    {
-      "name": "React",
-      "key": "react",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "JavaScript Library", "UI"
       ]
     }
   ],
