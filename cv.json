@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Gerald Solano",
-    "label": "Full Stack Developer | .NET Core | NodeJS | ReactJS | Python | Pentesting",
+    "label": "Full Stack Developer | .NET Core | NodeJS | ReactJS | Python",
     "image": "/me.webp",
     "email": "gdevx@outlook.com",
     "url": "https://www.linkedin.com/in/ger10",
-    "summary": "Software developer with a focus on back-end development for web applications. I am passionate about my work and enjoy learning about new technologies, trends, and researching solutions that help me grow professionally. I find enjoyment in developing and proposing new solutions for both work and personal projects.",
+    "summary": "Software developer specializing in back-end development for web applications. Passionate about building scalable solutions and staying ahead of technology trends. Experienced in leading teams, fostering collaboration, and driving projects to successful completion while ensuring high-quality solutions.",
     "location": {
       "address": "",
       "postalCode": "127.0.0.1",
@@ -84,22 +84,28 @@
     "url": "https://cs.lpi.org/caf/Xamman/certification/verify/LPI000529181/rw9j2vqvts"
   },
   {
-    "name": "SFPC - Scrum Foundation Professional Certificate",
-    "date": "2022-07-02",
+    "name": "Google Project Management: Professional Certificate",
+    "date": "2025-01-09",
     "issuer": "CertiProf",
-    "url": "https://www.credly.com/badges/c18d1a5f-7846-4834-bb2f-81a4c08a9e79/public_url"
+    "url": "https://www.coursera.org/account/accomplishments/professional-cert/FHE5JSST2YIR"
+  },
+  {
+    "name": "Lean Six Sigma White Belt Professional Certification - LSSWBPC",
+    "date": "2024-10-09",
+    "issuer": "CertiProf",
+    "url": "https://www.credly.com/badges/4dc8c42b-ff90-4274-ac8e-ea2a2afc09d3/public_url"
+  },
+  {
+    "name": "SFPC - Scrum Foundation Professional Certificate",
+    "date": "2024-10-10",
+    "issuer": "CertiProf",
+    "url": "https://www.credly.com/badges/36d3bb81-7b33-4b98-92ff-658b93f7721a/public_url"
   },
   {
     "name": "Kubernetes I - Administración",
     "date": "2022-03-24",
     "issuer": "Universidad Cenfotec",
     "url": "https://www.credly.com/badges/61c281c5-d068-4034-936d-bf370000ee85/public_url"
-  },
-  {
-    "name": "Curso de OSINT",
-    "date": "2023-01-28",
-    "issuer": "Academia de Ciberseguridad",
-    "url": "https://credential.academia-ciberseguridad.com/verify/f6b831544810"
   }
 ],
   "skills": [
@@ -266,6 +272,17 @@
     }
  ],
   "projects": [
+    {
+      "name": "Connect | ATH Móvil",
+      "isActive": true,
+      "description": "Connect Assistance customers can now activate ATH Móvil as a payment method through the Claim Tracker tool, a platform that provides users with transparency in managing their claims.",
+      "highlights": [
+        "Claims",
+        "Insurance companies",
+        "Clients"
+      ],
+      "url": "https://newsismybusiness.com/connect-assistance-integrates-ath-movil-for-claim-payments"
+    },
     {
       "name": "Pacto Amistoso",
       "isActive": true,
