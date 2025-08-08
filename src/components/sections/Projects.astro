@@ -4,7 +4,7 @@ import Section from "../Section.astro";
 import { projects } from "@cv";
 ---
 
-<Section title="Projects">
+<Section title="Reference Projects">
   <ul>
     {
       projects.map(({ url, description, highlights, name, isActive }) => {
@@ -52,7 +52,6 @@ import { projects } from "@cv";
     display: flex;
     flex-direction: column;
     padding: 16px;
-    height: 100%;
   }
 
   article header {

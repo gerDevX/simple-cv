@@ -1,0 +1,44 @@
+---
+import Section from "../Section.astro";
+
+import { core_competences } from "@cv";
+---
+
+<Section title="Core Competencies">
+  <div class="competencies-container">
+    {
+      core_competences.map(({ description, competences }) => (
+        <div class="competency-item">
+          <p class="description"><strong>{description}</strong> {competences.join(", ")}</p>          
+        </div>
+      ))
+    }
+  </div>
+</Section>
+
+<style>
+  .competencies-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .competency-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .description {
+    margin: 0;
+    color: #111;
+    font-size: 0.9rem;
+  }
+
+  .competences-list {
+    margin: 0;
+    color: #666;
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+</style>

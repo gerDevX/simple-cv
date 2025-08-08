@@ -5,7 +5,7 @@
     "image": "/me.webp",
     "email": "gdevx@outlook.com",
     "url": "https://www.linkedin.com/in/ger10",
-    "summary": "Software developer specializing in back-end development for web applications. Passionate about building scalable solutions and staying ahead of technology trends. Experienced in leading teams, fostering collaboration, and driving projects to successful completion while ensuring high-quality solutions.",
+    "summary": "Full Stack Developer with 14+ years of experience delivering high-quality web applications and scalable backend solutions for industries including banking, insurance, transportation, and HR. Skilled in .NET Core, Node.js, Python, and modern JavaScript frameworks, with proven experience leading teams, optimizing architectures, and integrating cloud and on-premises solutions. ",
     "location": {
       "address": "",
       "postalCode": "127.0.0.1",
@@ -33,7 +33,16 @@
       "url": "https://connect.cr",
       "startDate": "2019-08-15",
       "endDate": null,
-      "summary": "Analyst & Fullstack Developer for on-premises and cloud-based applications."
+      "summary": "Lead Fullstack Developer and Technical Team Lead for on-premises and cloud-based applications, managing development teams and driving technical decisions.",
+      "responsibilities": [
+        "Led and mentored development teams of 3-5 developers in full-stack projects",
+        "Full-stack web application development using .NET Core and React",
+        "Technical analysis and design of solutions for insurance sector clients",
+        "Implementation of RESTful APIs and scalable web services",
+        "Maintenance and optimization of existing applications",
+        "Collaboration with multidisciplinary teams in agile projects",
+        "Code review and quality assurance oversight for team deliverables"
+      ]
     },
     {
       "name": "Namutek",
@@ -41,14 +50,31 @@
       "url": "https://www.namutek.com",
       "startDate": "2016-04-01",
       "endDate": "2019-08-01",
-      "summary": "I led a team in Banking and Finance projects."
+      "summary": "Senior Technical Lead managing development teams in Banking and Finance projects, responsible for architecture decisions and team performance.",
+      "responsibilities": [
+        "Led cross-functional development teams of 4-6 developers in critical banking projects",
+        "Technical leadership of development teams in banking projects",
+        "Architecture and design of robust and secure backend systems",
+        "Implementation of integration solutions with banking APIs",
+        "Mentoring and training of junior developers",
+        "Code quality management and development best practices",
+        "Project planning and technical roadmap development",
+        "Stakeholder communication and technical presentations to clients"
+      ]
     },
     {
       "name": "Sapiens Software on Demand",
       "position": "Lead Software Enginner",
       "startDate": "2011-04-01",
       "endDate": "2016-03-22",
-      "summary": "I led several software development projects for external clients."
+      "summary": "I led several software development projects for external clients.",
+      "responsibilities": [
+        "Technical direction of multiple software development projects",
+        "Management of client relationships and external stakeholders",
+        "Planning and execution of development strategies",
+        "Supervision of quality standards implementation",
+        "Coordination between development teams and client departments"
+      ]
     }
   ],
   "education": [{
@@ -108,6 +134,60 @@
     "url": "https://www.credly.com/badges/61c281c5-d068-4034-936d-bf370000ee85/public_url"
   }
 ],
+  "core_competences": [
+    {
+      "description": "Soft Skills:",
+      "competences": [
+        "Team leadership", "Mentoring", "Agile methodologies", "Problem-solving", "Communication", "Time management", "Adaptability", "Continuous learning"
+      ]
+    },
+    {
+      "description": "Languages & Frameworks:",
+      "competences": [
+        "C#", ".NET Core", "Node.js", "Python", "Flask", "FastAPI", "React", "TypeScript", "JavaScript", "HTML", "CSS"
+      ]
+    },
+    {
+      "description": "Databases:",
+      "competences": [
+        "T-SQL", "MySQL", "PostgreSQL", "MongoDB", "Redis"
+      ]
+    },
+    {
+      "description": "Cloud & DevOps:",
+      "competences": [
+        "Azure", "AppService", "Azure DevOps", "Docker", "AWS", "Lambda", "Serverless", "Cognito", "Elasic Beanstalk"
+      ]
+    },
+    {
+      "description": "Methodologies:",
+      "competences": [
+        "Agile/Scrum", "API-First Development", "CI/CD", "Microservices"
+      ]
+    }
+  ],
+  "key_projects": [
+    {
+      "projectName": "Connect | ATH Móvil Integration",
+      "description": "Led the integration of ATH Móvil payment system into the Claim Tracker platform, enabling customers to activate mobile payments for insurance claims processing."
+    },
+    {
+      "projectName": "Pacto Amistoso Platform",
+      "description": "Developed a comprehensive solution for traffic accident management without requiring police intervention, streamlining the process for property damage claims."
+    },
+    {
+      "projectName": "Road Inspection System",
+      "description": "Built a multi-country inspection control system for road damage assessment, fraud prevention, and reporting across Panama, Costa Rica, and Puerto Rico."
+    },
+    {
+      "projectName": "BAC Fleet Management",
+      "description": "Created a fleet management and expense control system for banking operations, providing real-time monitoring and cost optimization capabilities."
+    },
+    {
+      "projectName": "ControlCar GPS System",
+      "description": "Developed a real-time security and location system with GPS control for vehicle tracking and security management."
+    }
+  ],
   "skills": [
     {
       "name": "C#",
@@ -273,9 +353,9 @@
  ],
   "projects": [
     {
-      "name": "Connect | ATH Móvil",
+      "name": "Connect | ATH Móvil - Payment System",
       "isActive": true,
-      "description": "Connect Assistance customers can now activate ATH Móvil as a payment method through the Claim Tracker tool, a platform that provides users with transparency in managing their claims.",
+      "description": "",
       "highlights": [
         "Claims",
         "Insurance companies",
@@ -284,9 +364,9 @@
       "url": "https://newsismybusiness.com/connect-assistance-integrates-ath-movil-for-claim-payments"
     },
     {
-      "name": "Pacto Amistoso",
+      "name": "Pacto Amistoso - Accident Management",
       "isActive": true,
-      "description": "A quick and simple solution for traffic accidents involving property damage, without the need for a traffic officer.",
+      "description": "",
       "highlights": [
         "Road",
         "Accidents",
@@ -296,12 +376,11 @@
       "url": "https://www.pactoamistoso.com"
     },
     {
-      "name": "Sistema de Inspecciones en Carretera",
+      "name": "Claims Management - Road Damage Assessment",
       "isActive": true,
-      "description": "System for inspection control, reporting, road damage control, and anti-fraud control. Implemented in countries such as Panama, Costa Rica, and Puerto Rico.",
+      "description": "",
       "highlights": [
-        "Inspectors",
-        "Inspections",
+        "Claims",
         "Road",
         "Damage",
         "Insurers",
@@ -310,9 +389,9 @@
       "url": "https://connect.cr"
     },
     {
-      "name": "BAC Flotas",
+      "name": "BAC Flotas - Fleet Management",
       "isActive": true,
-      "description": "Fleet management and expense control system.",
+      "description": "",
       "highlights": [
         "Fleets",
         "Banking",
@@ -321,9 +400,9 @@
       "url": "https://flotas.baccredomatic.com/"
     },
     {
-      "name": "ControlCar",
+      "name": "ControlCar - GPS System",
       "isActive": true,
-      "description": "Real-time security and location system, GPS control.",
+      "description": "",
       "highlights": [
         "Geolocation",
         "Realtime",
@@ -334,7 +413,7 @@
     {
       "name": "EY - HR Integration Module (Competencies)",
       "isActive": false,
-      "description": "Survey management for managers and employees to measure their competencies in aspects of statistics, performance, and skill improvement.",
+      "description": "",
       "highlights": [
         "HR",
         "Surveys",

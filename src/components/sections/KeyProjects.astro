@@ -1,0 +1,51 @@
+---
+import Section from "../Section.astro";
+
+import { key_projects } from "@cv";
+---
+
+<Section title="Key Projects">
+  <ul>
+    {
+      key_projects.map(({ projectName, description }) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <h3><strong>{projectName}</strong></h3>
+              </header>
+              <footer>
+                <p>{description}</p>
+              </footer>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: #111;
+    margin-bottom: 4px;
+  }
+
+  article p {
+    color: #666;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin: 0;
+  }
+
+  header {
+    margin-bottom: 4px;
+  }
+</style>
