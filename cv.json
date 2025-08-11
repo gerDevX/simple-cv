@@ -45,7 +45,6 @@
     {
       "name": "Namutek",
       "position": "Lead Backend Developer",
-      "url": "https://www.namutek.com",
       "startDate": "2016-04-01",
       "endDate": "2019-08-01",
       "summary": "Senior Technical Lead managing development teams in Banking and Finance projects, responsible for architecture decisions and team performance.",
@@ -152,7 +151,7 @@
     {
       "description": "Cloud & DevOps:",
       "competences": [
-        "Azure", "AppService", "Azure DevOps", "Docker", "AWS", "Lambda", "Serverless", "Cognito", "Elasic Beanstalk"
+        "Azure", "AppService", "Azure DevOps", "Docker", "AWS", "Lambda", "Serverless", "Cognito", "Elastic Beanstalk"
       ]
     },
     {
