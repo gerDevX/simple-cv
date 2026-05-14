@@ -1,0 +1,58 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import About from "@/components/sections/About.astro";
+import CoreCompetencies from "@/components/sections/CoreCompetencies.astro";
+import Education from "@/components/sections/Education.astro";
+import Certificates from "@/components/sections/Certificates.astro";
+import KeyProjects from "@/components/sections/KeyProjects.astro";
+import Experience from "@/components/sections/Experience.astro";
+import Hero from "@/components/sections/Hero.astro";
+import Projects from "@/components/sections/Projects.astro";
+import Skills from "@/components/sections/Skills.astro";
+import KeyboardManager from "@/components/KeyboardManager.astro";
+import type { Lang } from "@/i18n/ui";
+import { getUi } from "@/i18n/ui";
+import cvEn from "../../../cv.en.json";
+import cvEs from "../../../cv.es.json";
+
+export function getStaticPaths() {
+  return [{ params: { lang: "en" } }, { params: { lang: "es" } }];
+}
+
+const rawLang = Astro.params.lang;
+const lang: Lang = rawLang === "es" ? "es" : "en";
+const cv = lang === "es" ? cvEs : cvEn;
+const t = getUi(lang);
+const { name, label } = cv.basics;
+const title = `${t.portfolioOf} ${name} - ${label}`;
+---
+
+<Layout title={title} lang={lang} basics={cv.basics}>
+  <main>
+    <Hero basics={cv.basics} t={t} lang={lang} />
+    <About summary={cv.basics.summary} title={t.about} />
+    <CoreCompetencies items={cv.core_competences} title={t.coreCompetencies} />
+    <Experience work={cv.work} title={t.experience} currentLabel={t.current} seeCompanyTemplate={t.seeCompany} />
+    <Education education={cv.education} title={t.education} currentLabel={t.current} />
+    <Certificates certificates={cv.certificates} title={t.certificates} seeCertTemplate={t.seeCert} />
+    <KeyProjects projects={cv.key_projects} title={t.keyProjects} />
+    <Projects projects={cv.projects} title={t.referenceProjects} seeProjectTemplate={t.seeProject} />
+    <Skills skills={cv.skills} title={t.skills} />
+  </main>
+
+  <KeyboardManager basics={cv.basics} t={t} />
+</Layout>
+
+<style>
+  main {
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+  }
+
+  @media (width <= 700px) {
+    main {
+      padding: 2rem;
+    }
+  }
+</style>

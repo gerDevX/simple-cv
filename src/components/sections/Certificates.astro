@@ -1,10 +1,23 @@
 ---
 import Section from "../Section.astro";
 
-import { certificates } from "@cv";
+interface CertificateItem {
+  name: string;
+  date: string;
+  issuer: string;
+  url: string;
+}
+
+interface Props {
+  certificates: CertificateItem[];
+  title: string;
+  seeCertTemplate: string;
+}
+
+const { certificates, title, seeCertTemplate } = Astro.props;
 ---
 
-<Section title="Certifications">
+<Section title={title}>
   <ul>
     {
       certificates.map(({ name, date, issuer, url }) => {
@@ -14,7 +27,7 @@ import { certificates } from "@cv";
               <header>
                 <div>
                   <h3>
-                    <a href={url} title={`See ${name}`} target="_blank">
+                    <a href={url} title={seeCertTemplate.replace("{name}", name)} target="_blank">
                       {name}
                     </a>
                   </h3>

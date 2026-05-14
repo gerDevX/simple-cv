@@ -9,7 +9,6 @@ import node from "@/icons/node.astro";
 import sql from "@/icons/sql.astro";
 import git from "@/icons/git.astro";
 import github from "@/icons/GitHub.astro";
-import { skills } from "@cv";
 import python from "@/icons/python.astro";
 import flask from "@/icons/flask.astro";
 import azuredevops from "@/icons/azure-devops.astro";
@@ -19,7 +18,19 @@ import kubernetes from "@/icons/kubernetes.astro";
 import docker from "@/icons/docker.astro";
 import dotnetcore from "@/icons/dotnetcore.astro";
 
-const SKILLS_ICONS: Record<string, any> = {
+interface SkillItem {
+  name: string;
+  key: string;
+}
+
+interface Props {
+  skills: SkillItem[];
+  title: string;
+}
+
+const { skills, title } = Astro.props;
+
+const SKILLS_ICONS: Record<string, unknown> = {
   html,
   css,
   javascript,
@@ -40,11 +51,11 @@ const SKILLS_ICONS: Record<string, any> = {
 };
 ---
 
-<Section title="Skills & Technologies">
+<Section title={title}>
   <ul>
     {
       skills.map(({ name, key }) => {
-        const Icon = SKILLS_ICONS[key];
+        const Icon = SKILLS_ICONS[key] as typeof html | undefined;
 
         return (
           <li>

@@ -1,5 +1,5 @@
 ---
-import { basics } from "@cv";
+import type { Lang, UiStrings } from "@/i18n/ui";
 import Section from "@/components/Section.astro";
 import Mail from "@/icons/Mail.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
@@ -7,7 +7,23 @@ import GitHub from "@/icons/GitHub.astro";
 import WorldMap from "@/icons/WorldMap.astro";
 import type { SocialIcon } from "@/types";
 
-const { name, label, image, location, profiles, email } = basics;
+interface Basics {
+  name: string;
+  label: string;
+  image: string;
+  location: { city: string; region: string };
+  profiles: { network: string; url: string }[];
+  email: string;
+}
+
+interface Props {
+  basics: Basics;
+  t: UiStrings;
+  lang: Lang;
+}
+
+const { basics, t, lang } = Astro.props;
+const { name, label, location, profiles, email } = basics;
 const { city, region } = location;
 
 const SOCIAL_ICONS: SocialIcon = {
@@ -24,6 +40,11 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ");
 <Section>
   <div class="container">
     <div class="info">
+      <nav class="lang-switch no-print" aria-label={t.langSwitchTitle}>
+        <a href="/en/" class:list={[{ active: lang === "en" }]}>{t.langSwitchEn}</a>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="/es/" class:list={[{ active: lang === "es" }]}>{t.langSwitchEs}</a>
+      </nav>
       <h1>{name}</h1>
       <h2>{label}</h2>
       <span>
@@ -38,7 +59,7 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ");
           email && (
             <a
               href={`mailto:${email}`}
-              title={`Send email to ${email}`}
+              title={`${t.emailTitle} ${email}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -53,7 +74,7 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ");
             return (
               <a
                 href={url}
-                title={`Visit my profile ${name} in ${network}`}
+                title={`${t.profileTitle} ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -63,7 +84,7 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ");
           })
         }
       </footer>
-    </div>   
+    </div>
   </div>
 </Section>
 
@@ -81,6 +102,40 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ");
     flex-direction: column;
     gap: 0.5rem;
     padding-right: 32px;
+    width: 100%;
+  }
+
+  .lang-switch {
+    align-self: flex-end;
+    font-size: 0.75rem;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .lang-switch a {
+    color: #555;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+
+  .lang-switch a:hover {
+    background: #eee;
+    color: #111;
+  }
+
+  .lang-switch a.active {
+    color: #111;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .lang-switch .sep {
+    color: #ccc;
+    user-select: none;
   }
 
   h1 {
@@ -146,6 +201,10 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ");
       align-items: center;
       padding-right: 0;
       text-align: center;
+    }
+
+    .lang-switch {
+      align-self: center;
     }
 
     figure {

@@ -1,15 +1,27 @@
 ---
 import Section from "../Section.astro";
 
-import { core_competences } from "@cv";
+interface CompetenceGroup {
+  description: string;
+  competences: string[];
+}
+
+interface Props {
+  items: CompetenceGroup[];
+  title: string;
+}
+
+const { items, title } = Astro.props;
 ---
 
-<Section title="Core Competencies">
+<Section title={title}>
   <div class="competencies-container">
     {
-      core_competences.map(({ description, competences }) => (
+      items.map(({ description, competences }) => (
         <div class="competency-item">
-          <p class="description"><strong>{description}</strong> {competences.join(", ")}</p>          
+          <p class="description">
+            <strong>{description}</strong> {competences.join(", ")}
+          </p>
         </div>
       ))
     }
@@ -33,6 +45,7 @@ import { core_competences } from "@cv";
     margin: 0;
     color: #111;
     font-size: 0.9rem;
+    text-align: justify;
   }
 
   .competences-list {

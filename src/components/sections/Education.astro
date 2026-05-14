@@ -1,16 +1,28 @@
 ---
 import Section from "../Section.astro";
 
-import { education } from "@cv";
+interface EducationItem {
+  institution: string;
+  startDate: string;
+  endDate: string | null;
+  area: string;
+}
+
+interface Props {
+  education: EducationItem[];
+  title: string;
+  currentLabel: string;
+}
+
+const { education, title, currentLabel } = Astro.props;
 ---
 
-<Section title="Education">
+<Section title={title}>
   <ul>
     {
       education.map(({ institution, startDate, endDate, area }) => {
         const startYear = new Date(startDate).getFullYear();
-        const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Current";
+        const endYear = endDate != null ? new Date(endDate).getFullYear() : currentLabel;
         const years = `${startYear} - ${endYear}`;
 
         return (

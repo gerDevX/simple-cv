@@ -1,17 +1,23 @@
 ---
-import { basics } from "@cv";
+import type { Lang } from "@/i18n/ui";
 
 interface Props {
   title: string;
+  lang: Lang;
+  basics: {
+    image: string;
+    summary: string;
+    url: string;
+  };
 }
 
-const { title } = Astro.props;
+const { title, lang, basics } = Astro.props;
 
 const { image, summary, url } = basics;
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <title>{title}</title>
@@ -90,6 +96,7 @@ const { image, summary, url } = basics;
     font-size: 0.9rem;
     line-height: 1.5;
     margin: 0;
+    text-align: justify;
     text-wrap: pretty;
   }
 

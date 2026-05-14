@@ -1,11 +1,15 @@
 ---
 import Section from "../Section.astro";
 
-import { basics } from "@cv";
-const { summary } = basics;
+interface Props {
+  summary: string;
+  title: string;
+}
+
+const { summary, title } = Astro.props;
 ---
 
-<Section title="About Me">
+<Section title={title}>
   <p>
     {summary}
   </p>

@@ -1,11 +1,11 @@
 {
   "basics": {
-    "name": "Gerald Solano",
-    "label": "Full Stack Developer | .NET Core | NodeJS | ReactJS | Python",
+    "name": "Gerald Solano Chinchilla",
+    "label": "Tech Lead Manager | Senior Backend Engineer | .NET Core | NodeJS | ReactJS | Python",
     "image": "/me.webp",
     "email": "gdevx@outlook.com",
     "url": "https://www.linkedin.com/in/ger10",
-    "summary": "Full Stack Developer with 14+ years of experience delivering high-quality web applications and scalable backend solutions for industries including banking, insurance, transportation, and HR. Skilled in .NET Core, Node.js, Python, and modern JavaScript frameworks, with proven experience leading teams, optimizing architectures, and integrating cloud and on-premises solutions. ",
+    "summary": "Technical leader with more than fourteen years of experience in regulated environments (banking, insurance, transportation, and HR), where I have combined engineering team leadership with architecture and quality decisions. I focus on making the team's work visible and measurable: clear priorities, predictable delivery, and transparent progress with the business, reducing friction between what we build and the value we create. I drive practices that improve flow efficiency (less rework, sharper scope definition, continuous risk review) without sacrificing technical soundness. I maintain a strong foundation in .NET Core, Node.js, Python, and modern web ecosystems, which allows me to mentor, unblock complex decisions, and align technical excellence with business outcomes.",
     "location": {
       "address": "",
       "postalCode": "127.0.0.1",
@@ -28,12 +28,25 @@
   },
   "work": [
     {
+      "name": "Gamanza Engage",
+      "position": "Senior Backend Engineer",
+      "url": "https://www.gamanzaengage.com",
+      "startDate": "2026-02-16",
+      "endDate": null,
+      "summary": "Senior Backend Engineer responsible for designing and implementing the backend infrastructure for the Gamanza Engage platform.",
+      "responsibilities": [
+        "Designed and developed scalable backend services using a microservices architecture for the Gamanza Engage platform.",
+        "Built aggregation and analytics solutions leveraging BigQuery and Google Cloud Platform (GCP).",
+        "Produced technical documentation covering system processes, integrations, and business workflows."
+      ]
+    },
+    {
       "name": "Connect Assistance",
       "position": "Software Developer",
       "url": "https://connect.cr",
       "startDate": "2019-08-15",
-      "endDate": null,
-      "summary": "Lead Fullstack Developer and Technical Team Lead for on-premises and cloud-based applications, managing development teams and driving technical decisions.",
+      "endDate": "2026-02-12",
+      "summary": "Technical Team Lead for on-premises and cloud-based applications, managing development teams and driving technical decisions.",
       "responsibilities": [
         "Led and mentored development teams of 3-5 developers in full-stack projects",
         "Defined and implemented performance metrics, conducted periodic evaluations, and provided actionable feedback to drive technical growth and team efficiency.",
@@ -72,92 +85,121 @@
       ]
     }
   ],
-  "education": [{
-    "institution": "Universidad Latina de Costa Rica",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Software Engineer",
-    "studyType": "Bachelor degree",
-    "startDate": "2008-03-01",
-    "endDate": "2013-08-01"
-  }],
-  "certificates": [{
-    "name": "Back End Development and APIs",
-    "date": "2023-10-14",
-    "issuer": "freeCodeCamp",
-    "url": "https://www.freecodecamp.org/certification/gerDevx10/back-end-development-and-apis"
-  },
-  {
-    "name": "Full Stack Developer",
-    "date": "2023-10-16",
-    "issuer": "freeCodeCamp",
-    "url": "https://freecodecamp.org/certification/gerDevx10/full-stack"
-  },
-  {
-    "name": "Python for Data Science",
-    "date": "2022-07-04",
-    "issuer": "IBM",
-    "url": "https://www.credly.com/badges/2b34af43-c52e-4909-96fc-70da7d6bf647/public_url"
-  },
-  {
-    "name": "LE-1: Linux Essentials",
-    "date": "2022-06-30",
-    "issuer": "Linux Professional Institute",
-    "url": "https://cs.lpi.org/caf/Xamman/certification/verify/LPI000529181/rw9j2vqvts"
-  },
-  {
-    "name": "Google Project Management: Professional Certificate",
-    "date": "2025-01-09",
-    "issuer": "CertiProf",
-    "url": "https://www.coursera.org/account/accomplishments/professional-cert/FHE5JSST2YIR"
-  },
-  {
-    "name": "Lean Six Sigma White Belt Professional Certification - LSSWBPC",
-    "date": "2024-10-09",
-    "issuer": "CertiProf",
-    "url": "https://www.credly.com/badges/4dc8c42b-ff90-4274-ac8e-ea2a2afc09d3/public_url"
-  },
-  {
-    "name": "SFPC - Scrum Foundation Professional Certificate",
-    "date": "2024-10-10",
-    "issuer": "CertiProf",
-    "url": "https://www.credly.com/badges/36d3bb81-7b33-4b98-92ff-658b93f7721a/public_url"
-  },
-  {
-    "name": "Kubernetes I - Administración",
-    "date": "2022-03-24",
-    "issuer": "Universidad Cenfotec",
-    "url": "https://www.credly.com/badges/61c281c5-d068-4034-936d-bf370000ee85/public_url"
-  }
-],
+  "education": [
+    {
+      "institution": "Universidad Latina de Costa Rica",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "area": "Software Engineer",
+      "studyType": "Bachelor degree",
+      "startDate": "2008-03-01",
+      "endDate": "2013-08-01"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Back End Development and APIs",
+      "date": "2023-10-14",
+      "issuer": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/certification/gerDevx10/back-end-development-and-apis"
+    },
+    {
+      "name": "Full Stack Developer",
+      "date": "2023-10-16",
+      "issuer": "freeCodeCamp",
+      "url": "https://freecodecamp.org/certification/gerDevx10/full-stack"
+    },
+    {
+      "name": "Python for Data Science",
+      "date": "2022-07-04",
+      "issuer": "IBM",
+      "url": "https://www.credly.com/badges/2b34af43-c52e-4909-96fc-70da7d6bf647/public_url"
+    },
+    {
+      "name": "LE-1: Linux Essentials",
+      "date": "2022-06-30",
+      "issuer": "Linux Professional Institute",
+      "url": "https://cs.lpi.org/caf/Xamman/certification/verify/LPI000529181/rw9j2vqvts"
+    },
+    {
+      "name": "Google Project Management: Professional Certificate",
+      "date": "2025-01-09",
+      "issuer": "CertiProf",
+      "url": "https://www.coursera.org/account/accomplishments/professional-cert/FHE5JSST2YIR"
+    },
+    {
+      "name": "Lean Six Sigma White Belt Professional Certification - LSSWBPC",
+      "date": "2024-10-09",
+      "issuer": "CertiProf",
+      "url": "https://www.credly.com/badges/4dc8c42b-ff90-4274-ac8e-ea2a2afc09d3/public_url"
+    },
+    {
+      "name": "SFPC - Scrum Foundation Professional Certificate",
+      "date": "2024-10-10",
+      "issuer": "CertiProf",
+      "url": "https://www.credly.com/badges/36d3bb81-7b33-4b98-92ff-658b93f7721a/public_url"
+    },
+    {
+      "name": "Kubernetes I - Administración",
+      "date": "2022-03-24",
+      "issuer": "Universidad Cenfotec",
+      "url": "https://www.credly.com/badges/61c281c5-d068-4034-936d-bf370000ee85/public_url"
+    }
+  ],
   "core_competences": [
     {
       "description": "Soft Skills:",
       "competences": [
-        "Team leadership", "Mentoring", "Agile methodologies", "Problem-solving", "Communication", "Time management", "Adaptability", "Continuous learning"
+        "Team leadership",
+        "Mentoring",
+        "Agile methodologies",
+        "Problem-solving",
+        "Communication",
+        "Time management",
+        "Adaptability",
+        "Continuous learning"
       ]
     },
     {
       "description": "Languages & Frameworks:",
       "competences": [
-        "C#", ".NET Core", "Node.js", "Python", "Flask", "FastAPI", "React", "TypeScript", "JavaScript", "HTML", "CSS"
+        "C#",
+        ".NET Core",
+        "Node.js",
+        "Python",
+        "Flask",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "HTML",
+        "CSS"
       ]
     },
     {
       "description": "Databases:",
-      "competences": [
-        "T-SQL", "MySQL", "PostgreSQL", "MongoDB", "Redis"
-      ]
+      "competences": ["T-SQL", "MySQL", "PostgreSQL", "MongoDB", "Redis"]
     },
     {
       "description": "Cloud & DevOps:",
       "competences": [
-        "Azure", "AppService", "Azure DevOps", "Docker", "AWS", "Lambda", "Serverless", "Cognito", "Elastic Beanstalk"
+        "Azure",
+        "AppService",
+        "Azure DevOps",
+        "Docker",
+        "AWS",
+        "Lambda",
+        "Serverless",
+        "Cognito",
+        "Elastic Beanstalk"
       ]
     },
     {
       "description": "Methodologies:",
       "competences": [
-        "Agile/Scrum", "API-First Development", "CI/CD", "Microservices"
+        "Agile/Scrum",
+        "API-First Development",
+        "CI/CD",
+        "Microservices"
       ]
     }
   ],
@@ -188,137 +230,103 @@
       "name": "C#",
       "key": "csharp",
       "level": "Advanced",
-      "keywords": [
-        "Web development", "Backend", "Microsoft"
-      ]
+      "keywords": ["Web development", "Backend", "Microsoft"]
     },
     {
       "name": ".NET Core",
       "key": "dotnetcore",
       "level": "Advanced",
-      "keywords": [
-        "Web development", "Backend", "Microsoft"
-      ]
+      "keywords": ["Web development", "Backend", "Microsoft"]
     },
     {
       "name": "T-SQL",
       "key": "sql",
       "level": "Advanced",
-      "keywords": [
-        "Data Base", "SQL", "Storage", "Backend"
-      ]
+      "keywords": ["Data Base", "SQL", "Storage", "Backend"]
     },
     {
       "name": "HTML",
       "key": "html",
       "level": "Master",
-      "keywords": [
-        "Web development", "Frontend"
-      ]
+      "keywords": ["Web development", "Frontend"]
     },
     {
       "name": "CSS",
       "key": "css",
       "level": "Master",
-      "keywords": [
-        "Web development", "Frontend", "Responsive Design"
-      ]
+      "keywords": ["Web development", "Frontend", "Responsive Design"]
     },
     {
       "name": "JavaScript",
       "key": "javascript",
       "level": "Master",
-      "keywords": [
-        "Web development", "Frontend", "Backend", "Fullstack"
-      ]
+      "keywords": ["Web development", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "TypeScript",
       "key": "typescript",
       "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "Backend"
-      ]
+      "keywords": ["Web development", "Frontend", "Backend"]
     },
     {
       "name": "Node",
       "key": "node",
       "level": "Advanced",
-      "keywords": [
-        "Web development", "Backend", "JavaScript"
-      ]
+      "keywords": ["Web development", "Backend", "JavaScript"]
     },
     {
       "name": "React",
       "key": "react",
       "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "JavaScript Library", "UI"
-      ]
+      "keywords": ["Web development", "Frontend", "JavaScript Library", "UI"]
     },
     {
       "name": "Python",
       "key": "python",
       "level": "Advanced",
-      "keywords": [
-        "Web development", "Backend", "Data Science"
-      ]
+      "keywords": ["Web development", "Backend", "Data Science"]
     },
     {
       "name": "Flask",
       "key": "flask",
       "level": "Advanced",
-      "keywords": [
-        "Web development", "Backend", "Python"
-      ]
+      "keywords": ["Web development", "Backend", "Python"]
     },
     {
       "name": "Fast API",
       "key": "fastapi",
       "level": "Advanced",
-      "keywords": [
-        "Web development", "Backend", "Python"
-      ]
+      "keywords": ["Web development", "Backend", "Python"]
     },
     {
       "name": "Git",
       "key": "git",
       "level": "Advanced",
-      "keywords": [
-        "Version Control", "Collaboration", "Source Control"
-      ]
+      "keywords": ["Version Control", "Collaboration", "Source Control"]
     },
     {
       "name": "GitHub",
       "key": "github",
       "level": "Advanced",
-      "keywords": [
-        "Version Control", "Collaboration", "Source Code", "Git"
-      ]
+      "keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
     },
     {
       "name": "Azure DevOps",
       "key": "azuredevops",
       "level": "Advanced",
-      "keywords": [
-        "Version Control", "Collaboration", "Source Code", "Git"
-      ]
+      "keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
     },
     {
       "name": "Docker",
       "key": "docker",
       "level": "Intermediate",
-      "keywords": [
-        "Containers", "Web development", "Backend"
-      ]
+      "keywords": ["Containers", "Web development", "Backend"]
     },
     {
       "name": "Kubernetes",
       "key": "kubernetes",
       "level": "Intermediate",
-      "keywords": [
-        "Containers", "Web development", "Backend"
-      ]
+      "keywords": ["Containers", "Web development", "Backend"]
     }
   ],
   "languages": [
@@ -331,90 +339,57 @@
       "fluency": "Intermediate"
     }
   ],
-  "interests": [{
+  "interests": [
+    {
       "name": "Hiking",
-      "keywords": [
-        "Hikes",
-        "Mountain"
-      ]
+      "keywords": ["Hikes", "Mountain"]
     },
     {
       "name": "Fast Soccer",
-      "keywords": [
-        "Soccer",
-        "Sport"
-      ]
+      "keywords": ["Soccer", "Sport"]
     }
- ],
+  ],
   "projects": [
     {
       "name": "Connect | ATH Móvil - Payment System",
       "isActive": true,
       "description": "",
-      "highlights": [
-        "Claims",
-        "Insurance companies",
-        "Clients"
-      ],
+      "highlights": ["Claims", "Insurance companies", "Clients"],
       "url": "https://newsismybusiness.com/connect-assistance-integrates-ath-movil-for-claim-payments"
     },
     {
       "name": "Pacto Amistoso - Accident Management",
       "isActive": true,
       "description": "",
-      "highlights": [
-        "Road",
-        "Accidents",
-        "Transit",
-        "Friendly Agreements"
-      ],
+      "highlights": ["Road", "Accidents", "Transit", "Friendly Agreements"],
       "url": "https://www.pactoamistoso.com"
     },
     {
       "name": "Claims Management - Road Damage Assessment",
       "isActive": true,
       "description": "",
-      "highlights": [
-        "Claims",
-        "Road",
-        "Damage",
-        "Insurers",
-        "Anti fraud"
-      ],
+      "highlights": ["Claims", "Road", "Damage", "Insurers", "Anti fraud"],
       "url": "https://connect.cr"
     },
     {
       "name": "BAC Flotas - Fleet Management",
       "isActive": true,
       "description": "",
-      "highlights": [
-        "Fleets",
-        "Banking",
-        "Expense Control"
-      ],
+      "highlights": ["Fleets", "Banking", "Expense Control"],
       "url": "https://flotas.baccredomatic.com/"
     },
     {
       "name": "ControlCar - GPS System",
       "isActive": true,
       "description": "",
-      "highlights": [
-        "Geolocation",
-        "Realtime",
-        "Security"
-      ],
+      "highlights": ["Geolocation", "Realtime", "Security"],
       "url": "https://www.baccredomatic.com/es-cr/personas/landing/controlcar"
     },
     {
       "name": "EY - HR Integration Module (Competencies)",
       "isActive": false,
       "description": "",
-      "highlights": [
-        "HR",
-        "Surveys",
-        "Competences",
-        "Statistics"
-      ],
+      "highlights": ["HR", "Surveys", "Competences", "Statistics"],
       "url": "https://www.ey.com/es_cr"
     }
   ]

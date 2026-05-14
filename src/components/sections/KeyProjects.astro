@@ -1,13 +1,23 @@
 ---
 import Section from "../Section.astro";
 
-import { key_projects } from "@cv";
+interface KeyProject {
+  projectName: string;
+  description: string;
+}
+
+interface Props {
+  projects: KeyProject[];
+  title: string;
+}
+
+const { projects, title } = Astro.props;
 ---
 
-<Section title="Key Projects">
+<Section title={title}>
   <ul>
     {
-      key_projects.map(({ projectName, description }) => {
+      projects.map(({ projectName, description }) => {
         return (
           <li>
             <article>
@@ -43,6 +53,7 @@ import { key_projects } from "@cv";
     font-size: 0.85rem;
     line-height: 1.4;
     margin: 0;
+    text-align: justify;
   }
 
   header {

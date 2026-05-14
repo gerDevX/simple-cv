@@ -1,16 +1,32 @@
 ---
 import Section from "../Section.astro";
 
-import { work } from "@cv";
+interface WorkItem {
+  name: string;
+  startDate: string;
+  endDate: string | null;
+  position: string;
+  summary: string;
+  url?: string;
+  responsibilities?: string[];
+}
+
+interface Props {
+  work: WorkItem[];
+  title: string;
+  currentLabel: string;
+  seeCompanyTemplate: string;
+}
+
+const { work, title, currentLabel, seeCompanyTemplate } = Astro.props;
 ---
 
-<Section title="Professional Experience">
+<Section title={title}>
   <ul>
     {
       work.map(({ name, startDate, endDate, position, summary, url, responsibilities }) => {
         const startYear = new Date(startDate).getFullYear();
-        const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Current";
+        const endYear = endDate != null ? new Date(endDate).getFullYear() : currentLabel;
         const years = `${startYear} - ${endYear}`;
 
         return (
@@ -19,9 +35,13 @@ import { work } from "@cv";
               <header>
                 <div>
                   <h3>
-                    <a href={url} title={`See ${name}`} target="_blank">
-                      {name}
-                    </a>
+                    {url ? (
+                      <a href={url} title={seeCompanyTemplate.replace("{name}", name)} target="_blank">
+                        {name}
+                      </a>
+                    ) : (
+                      <span>{name}</span>
+                    )}
                   </h3>
                   <h4>{position}</h4>
                 </div>
@@ -97,6 +117,7 @@ import { work } from "@cv";
     line-height: 1.4;
     margin-bottom: 2px;
     display: list-item;
+    text-align: justify;
   }
 
   @media (width <= 700px) {
